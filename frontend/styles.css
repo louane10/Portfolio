@@ -648,10 +648,12 @@ footer .text span a:hover {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s ease;
+    
   }
   
   .project-card:hover {
     transform: scale(1.05);
+    
   }
   
   .project-hover {
@@ -665,6 +667,9 @@ footer .text span a:hover {
     padding: 20px;
     border-radius: 10px;
     transition: top 0.3s ease;
+    overflow-y: scroll;
+    scrollbar-color: black;
+    scrollbar-width: thin;
   }
   
   .project-card:hover .project-hover {
@@ -675,6 +680,7 @@ footer .text span a:hover {
     font-size: 1.5rem;
     color: #c53b06;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .project-hover p {
@@ -685,6 +691,7 @@ footer .text span a:hover {
   .project-hover ul {
     list-style: none;
     padding: 0;
+    text-align: center;
   }
   
   .project-hover li {
