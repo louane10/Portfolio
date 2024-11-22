@@ -638,19 +638,30 @@ footer .text span a:hover {
     flex-wrap: wrap;
     margin: 40px 0;
   }
-  
   .project-card {
     position: relative;
     width: 30%;
     height: 200px;
-    background: #841b0a;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s ease;
-    
   }
-  
+  .card1 {
+    background-image: url("images/d0a4c518612843300036e2dd8a7778a0.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .card2 {
+    background-image: url("images/kasa.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .card3 {
+    background-image: url("images/a104389ebded13659ed41b8643bf13de.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
   .project-card:hover {
     transform: scale(1.05);
     
@@ -668,7 +679,7 @@ footer .text span a:hover {
     border-radius: 10px;
     transition: top 0.3s ease;
     overflow-y: scroll;
-    scrollbar-color: black;
+    scrollbar-color: rgb(170, 24, 24);
     scrollbar-width: thin;
   }
   
